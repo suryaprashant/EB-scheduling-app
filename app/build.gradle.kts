@@ -9,15 +9,35 @@ android {
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.ebdepot.scheduler"
+        applicationId = "com.aistudio.depotcharge.evschd"
         minSdk = 26
         targetSdk = 35
         versionCode = 1
         versionName = "1.0"
     }
 
+    signingConfigs {
+        create("debugConfig") {
+            storeFile = file("${rootDir}/debug.keystore")
+            storePassword = "android"
+            keyAlias = "androiddebugkey"
+            keyPassword = "android"
+        }
+    }
+
+    buildTypes {
+        debug {
+            signingConfig = signingConfigs.getByName("debugConfig")
+        }
+    }
+
     buildFeatures {
         compose = true
+    }
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_21
+        targetCompatibility = JavaVersion.VERSION_21
     }
 }
 
