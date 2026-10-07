@@ -30,6 +30,7 @@ import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Add
+import androidx.compose.material.icons.filled.BatteryChargingFull
 import androidx.compose.material.icons.filled.Bolt
 import androidx.compose.material.icons.filled.CalendarMonth
 import androidx.compose.material.icons.filled.CheckCircle
@@ -38,6 +39,7 @@ import androidx.compose.material.icons.filled.DeleteOutline
 import androidx.compose.material.icons.filled.EvStation
 import androidx.compose.material.icons.filled.Search
 import androidx.compose.material.icons.filled.WarningAmber
+import com.ebdepot.scheduler.ui.AllocatorScreen
 import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
@@ -87,6 +89,7 @@ private val AmberBackground = Color(0xFFFFF3D9)
 private val Red = Color(0xFFAE4939)
 
 private enum class AppTab(val label: String) {
+    ALLOCATE("Allocate"),
     OVERVIEW("Overview"),
     SCHEDULE("Schedule"),
     CHARGERS("Chargers"),
@@ -118,7 +121,7 @@ private fun DepotChargeApp() {
     val sessions = remember {
         mutableStateListOf<ChargeSession>().apply { addAll(loadSessions(context)) }
     }
-    var selectedTab by remember { mutableStateOf(AppTab.OVERVIEW) }
+    var selectedTab by remember { mutableStateOf(AppTab.ALLOCATE) }
     var scheduleFilter by remember { mutableStateOf(ScheduleFilter.ALL) }
     var showAddSession by remember { mutableStateOf(false) }
     var selectedSession by remember { mutableStateOf<ChargeSession?>(null) }
@@ -143,6 +146,7 @@ private fun DepotChargeApp() {
                         icon = {
                             Icon(
                                 imageVector = when (tab) {
+                                    AppTab.ALLOCATE -> Icons.Filled.BatteryChargingFull
                                     AppTab.OVERVIEW -> Icons.Filled.Dashboard
                                     AppTab.SCHEDULE -> Icons.Filled.CalendarMonth
                                     AppTab.CHARGERS -> Icons.Filled.EvStation
@@ -156,20 +160,31 @@ private fun DepotChargeApp() {
             }
         },
         floatingActionButton = {
-            FloatingActionButton(
-                onClick = { showAddSession = true },
-                containerColor = Forest,
-                contentColor = Color.White,
-                shape = RoundedCornerShape(18.dp),
-            ) {
-                Icon(Icons.Filled.Add, contentDescription = "Add charging session")
+            if (selectedTab != AppTab.ALLOCATE) {
+                FloatingActionButton(
+                    onClick = { showAddSession = true },
+                    containerColor = Forest,
+                    contentColor = Color.White,
+                    shape = RoundedCornerShape(18.dp),
+                ) {
+                    Icon(Icons.Filled.Add, contentDescription = "Add charging session")
+                }
             }
         },
     ) { innerPadding ->
         when (selectedTab) {
+            AppTab.ALLOCATE -> AllocatorScreen(
+                sessions = sessionList,
+                onAddSessionToPlan = { newSession ->
+                    sessions.add(newSession)
+                    saveSessions(context, sessions)
+                },
+                modifier = Modifier.padding(innerPadding),
+            )
             AppTab.OVERVIEW -> OverviewScreen(
                 sessions = sessionList,
                 now = currentMinute,
+                onOpenAllocate = { selectedTab = AppTab.ALLOCATE },
                 onOpenSchedule = {
                     scheduleFilter = ScheduleFilter.ALL
                     selectedTab = AppTab.SCHEDULE
@@ -243,6 +258,7 @@ private fun DepotChargeApp() {
 private fun OverviewScreen(
     sessions: List<ChargeSession>,
     now: Int,
+    onOpenAllocate: () -> Unit,
     onOpenSchedule: () -> Unit,
     onOpenIssues: () -> Unit,
     onSessionClick: (ChargeSession) -> Unit,
@@ -287,6 +303,27 @@ private fun OverviewScreen(
         Text("Good day, team", fontSize = 28.sp, color = Ink, fontWeight = FontWeight.Bold)
         Text("Here’s your depot charging overview.", fontSize = 14.sp, color = Muted)
         Spacer(Modifier.height(18.dp))
+
+        // Quick Dispatch Banner
+        Card(
+            modifier = Modifier.fillMaxWidth().clickable(onClick = onOpenAllocate),
+            shape = RoundedCornerShape(20.dp),
+            colors = CardDefaults.cardColors(containerColor = Mint),
+        ) {
+            Row(
+                modifier = Modifier.padding(16.dp),
+                verticalAlignment = Alignment.CenterVertically,
+            ) {
+                Icon(Icons.Filled.BatteryChargingFull, contentDescription = null, tint = Forest)
+                Spacer(Modifier.width(12.dp))
+                Column(Modifier.weight(1f)) {
+                    Text("Electric Bus Arrival Dispatch", color = Ink, fontWeight = FontWeight.Bold, fontSize = 14.sp)
+                    Text("Input EB #, arrival time & SOC to allocate charger", color = Muted, fontSize = 12.sp)
+                }
+                Text("Allocate  ›", color = Forest, fontWeight = FontWeight.Bold, fontSize = 12.sp)
+            }
+        }
+        Spacer(Modifier.height(14.dp))
 
         Card(
             shape = RoundedCornerShape(26.dp),
