@@ -1,0 +1,1282 @@
+[
+  {
+    "id": "wb-001",
+    "bus": 96,
+    "charger": 1,
+    "startMinute": 275,
+    "endMinute": 325,
+    "durationMinutes": 50
+  },
+  {
+    "id": "wb-002",
+    "bus": 97,
+    "charger": 2,
+    "startMinute": 275,
+    "endMinute": 330,
+    "durationMinutes": 55
+  },
+  {
+    "id": "wb-003",
+    "bus": 98,
+    "charger": 1,
+    "startMinute": 335,
+    "endMinute": 390,
+    "durationMinutes": 55
+  },
+  {
+    "id": "wb-004",
+    "bus": 99,
+    "charger": 1,
+    "startMinute": 395,
+    "endMinute": 450,
+    "durationMinutes": 55
+  },
+  {
+    "id": "wb-005",
+    "bus": 100,
+    "charger": 1,
+    "startMinute": 475,
+    "endMinute": 525,
+    "durationMinutes": 50
+  },
+  {
+    "id": "wb-006",
+    "bus": 101,
+    "charger": 2,
+    "startMinute": 490,
+    "endMinute": 540,
+    "durationMinutes": 50
+  },
+  {
+    "id": "wb-007",
+    "bus": 42,
+    "charger": 4,
+    "startMinute": 730,
+    "endMinute": 780,
+    "durationMinutes": 50
+  },
+  {
+    "id": "wb-008",
+    "bus": 56,
+    "charger": 10,
+    "startMinute": 730,
+    "endMinute": 775,
+    "durationMinutes": 45
+  },
+  {
+    "id": "wb-009",
+    "bus": 41,
+    "charger": 3,
+    "startMinute": 735,
+    "endMinute": 775,
+    "durationMinutes": 40
+  },
+  {
+    "id": "wb-010",
+    "bus": 61,
+    "charger": 11,
+    "startMinute": 735,
+    "endMinute": 785,
+    "durationMinutes": 50
+  },
+  {
+    "id": "wb-011",
+    "bus": 43,
+    "charger": 7,
+    "startMinute": 740,
+    "endMinute": 790,
+    "durationMinutes": 50
+  },
+  {
+    "id": "wb-012",
+    "bus": 69,
+    "charger": 14,
+    "startMinute": 740,
+    "endMinute": 785,
+    "durationMinutes": 45
+  },
+  {
+    "id": "wb-013",
+    "bus": 44,
+    "charger": 8,
+    "startMinute": 750,
+    "endMinute": 800,
+    "durationMinutes": 50
+  },
+  {
+    "id": "wb-014",
+    "bus": 62,
+    "charger": 12,
+    "startMinute": 750,
+    "endMinute": 800,
+    "durationMinutes": 50
+  },
+  {
+    "id": "wb-015",
+    "bus": 86,
+    "charger": 17,
+    "startMinute": 750,
+    "endMinute": 785,
+    "durationMinutes": 35
+  },
+  {
+    "id": "wb-016",
+    "bus": 2,
+    "charger": 1,
+    "startMinute": 755,
+    "endMinute": 795,
+    "durationMinutes": 40
+  },
+  {
+    "id": "wb-017",
+    "bus": 3,
+    "charger": 2,
+    "startMinute": 765,
+    "endMinute": 805,
+    "durationMinutes": 40
+  },
+  {
+    "id": "wb-018",
+    "bus": 45,
+    "charger": 9,
+    "startMinute": 765,
+    "endMinute": 815,
+    "durationMinutes": 50
+  },
+  {
+    "id": "wb-019",
+    "bus": 70,
+    "charger": 15,
+    "startMinute": 765,
+    "endMinute": 810,
+    "durationMinutes": 45
+  },
+  {
+    "id": "wb-020",
+    "bus": 18,
+    "charger": 7,
+    "startMinute": 770,
+    "endMinute": 805,
+    "durationMinutes": 35
+  },
+  {
+    "id": "wb-021",
+    "bus": 28,
+    "charger": 6,
+    "startMinute": 775,
+    "endMinute": 810,
+    "durationMinutes": 35
+  },
+  {
+    "id": "wb-022",
+    "bus": 71,
+    "charger": 16,
+    "startMinute": 775,
+    "endMinute": 820,
+    "durationMinutes": 45
+  },
+  {
+    "id": "wb-023",
+    "bus": 4,
+    "charger": 3,
+    "startMinute": 780,
+    "endMinute": 825,
+    "durationMinutes": 45
+  },
+  {
+    "id": "wb-024",
+    "bus": 63,
+    "charger": 13,
+    "startMinute": 780,
+    "endMinute": 830,
+    "durationMinutes": 50
+  },
+  {
+    "id": "wb-025",
+    "bus": 46,
+    "charger": 10,
+    "startMinute": 785,
+    "endMinute": 835,
+    "durationMinutes": 50
+  },
+  {
+    "id": "wb-026",
+    "bus": 72,
+    "charger": 11,
+    "startMinute": 790,
+    "endMinute": 835,
+    "durationMinutes": 45
+  },
+  {
+    "id": "wb-027",
+    "bus": 91,
+    "charger": 17,
+    "startMinute": 790,
+    "endMinute": 840,
+    "durationMinutes": 50
+  },
+  {
+    "id": "wb-028",
+    "bus": 5,
+    "charger": 4,
+    "startMinute": 795,
+    "endMinute": 840,
+    "durationMinutes": 45
+  },
+  {
+    "id": "wb-029",
+    "bus": 47,
+    "charger": 7,
+    "startMinute": 795,
+    "endMinute": 840,
+    "durationMinutes": 45
+  },
+  {
+    "id": "wb-030",
+    "bus": 73,
+    "charger": 14,
+    "startMinute": 800,
+    "endMinute": 840,
+    "durationMinutes": 40
+  },
+  {
+    "id": "wb-031",
+    "bus": 19,
+    "charger": 1,
+    "startMinute": 805,
+    "endMinute": 835,
+    "durationMinutes": 30
+  },
+  {
+    "id": "wb-032",
+    "bus": 48,
+    "charger": 5,
+    "startMinute": 810,
+    "endMinute": 835,
+    "durationMinutes": 25
+  },
+  {
+    "id": "wb-033",
+    "bus": 64,
+    "charger": 8,
+    "startMinute": 810,
+    "endMinute": 860,
+    "durationMinutes": 50
+  },
+  {
+    "id": "wb-034",
+    "bus": 87,
+    "charger": 12,
+    "startMinute": 810,
+    "endMinute": 855,
+    "durationMinutes": 45
+  },
+  {
+    "id": "wb-035",
+    "bus": 74,
+    "charger": 6,
+    "startMinute": 815,
+    "endMinute": 845,
+    "durationMinutes": 30
+  },
+  {
+    "id": "wb-036",
+    "bus": 92,
+    "charger": 15,
+    "startMinute": 815,
+    "endMinute": 845,
+    "durationMinutes": 30
+  },
+  {
+    "id": "wb-037",
+    "bus": 31,
+    "charger": 2,
+    "startMinute": 820,
+    "endMinute": 845,
+    "durationMinutes": 25
+  },
+  {
+    "id": "wb-038",
+    "bus": 75,
+    "charger": 9,
+    "startMinute": 825,
+    "endMinute": 835,
+    "durationMinutes": 10
+  },
+  {
+    "id": "wb-039",
+    "bus": 49,
+    "charger": 3,
+    "startMinute": 830,
+    "endMinute": 865,
+    "durationMinutes": 35
+  },
+  {
+    "id": "wb-040",
+    "bus": 76,
+    "charger": 7,
+    "startMinute": 870,
+    "endMinute": 905,
+    "durationMinutes": 35
+  },
+  {
+    "id": "wb-041",
+    "bus": 50,
+    "charger": 1,
+    "startMinute": 875,
+    "endMinute": 915,
+    "durationMinutes": 40
+  },
+  {
+    "id": "wb-042",
+    "bus": 65,
+    "charger": 3,
+    "startMinute": 875,
+    "endMinute": 895,
+    "durationMinutes": 20
+  },
+  {
+    "id": "wb-043",
+    "bus": 77,
+    "charger": 8,
+    "startMinute": 885,
+    "endMinute": 905,
+    "durationMinutes": 20
+  },
+  {
+    "id": "wb-044",
+    "bus": 53,
+    "charger": 4,
+    "startMinute": 890,
+    "endMinute": 940,
+    "durationMinutes": 50
+  },
+  {
+    "id": "wb-045",
+    "bus": 88,
+    "charger": 5,
+    "startMinute": 890,
+    "endMinute": 895,
+    "durationMinutes": 5
+  },
+  {
+    "id": "wb-046",
+    "bus": 51,
+    "charger": 2,
+    "startMinute": 895,
+    "endMinute": 920,
+    "durationMinutes": 25
+  },
+  {
+    "id": "wb-047",
+    "bus": 89,
+    "charger": 11,
+    "startMinute": 895,
+    "endMinute": 925,
+    "durationMinutes": 30
+  },
+  {
+    "id": "wb-048",
+    "bus": 93,
+    "charger": 12,
+    "startMinute": 895,
+    "endMinute": 905,
+    "durationMinutes": 10
+  },
+  {
+    "id": "wb-049",
+    "bus": 66,
+    "charger": 6,
+    "startMinute": 900,
+    "endMinute": 920,
+    "durationMinutes": 20
+  },
+  {
+    "id": "wb-050",
+    "bus": 78,
+    "charger": 18,
+    "startMinute": 900,
+    "endMinute": 910,
+    "durationMinutes": 10
+  },
+  {
+    "id": "wb-051",
+    "bus": 54,
+    "charger": 5,
+    "startMinute": 905,
+    "endMinute": 955,
+    "durationMinutes": 50
+  },
+  {
+    "id": "wb-052",
+    "bus": 79,
+    "charger": 10,
+    "startMinute": 905,
+    "endMinute": 935,
+    "durationMinutes": 30
+  },
+  {
+    "id": "wb-053",
+    "bus": 52,
+    "charger": 3,
+    "startMinute": 910,
+    "endMinute": 935,
+    "durationMinutes": 25
+  },
+  {
+    "id": "wb-054",
+    "bus": 81,
+    "charger": 7,
+    "startMinute": 910,
+    "endMinute": 950,
+    "durationMinutes": 40
+  },
+  {
+    "id": "wb-055",
+    "bus": 95,
+    "charger": 8,
+    "startMinute": 915,
+    "endMinute": 940,
+    "durationMinutes": 25
+  },
+  {
+    "id": "wb-056",
+    "bus": 80,
+    "charger": 19,
+    "startMinute": 920,
+    "endMinute": 930,
+    "durationMinutes": 10
+  },
+  {
+    "id": "wb-057",
+    "bus": 67,
+    "charger": 16,
+    "startMinute": 925,
+    "endMinute": 950,
+    "durationMinutes": 25
+  },
+  {
+    "id": "wb-058",
+    "bus": 94,
+    "charger": 6,
+    "startMinute": 935,
+    "endMinute": 960,
+    "durationMinutes": 25
+  },
+  {
+    "id": "wb-059",
+    "bus": 55,
+    "charger": 1,
+    "startMinute": 940,
+    "endMinute": 985,
+    "durationMinutes": 45
+  },
+  {
+    "id": "wb-060",
+    "bus": 82,
+    "charger": 3,
+    "startMinute": 940,
+    "endMinute": 980,
+    "durationMinutes": 40
+  },
+  {
+    "id": "wb-061",
+    "bus": 83,
+    "charger": 20,
+    "startMinute": 960,
+    "endMinute": 975,
+    "durationMinutes": 15
+  },
+  {
+    "id": "wb-062",
+    "bus": 68,
+    "charger": 17,
+    "startMinute": 965,
+    "endMinute": 985,
+    "durationMinutes": 20
+  },
+  {
+    "id": "wb-063",
+    "bus": 84,
+    "charger": 5,
+    "startMinute": 965,
+    "endMinute": 1005,
+    "durationMinutes": 40
+  },
+  {
+    "id": "wb-064",
+    "bus": 85,
+    "charger": 18,
+    "startMinute": 975,
+    "endMinute": 1005,
+    "durationMinutes": 30
+  },
+  {
+    "id": "wb-065",
+    "bus": 90,
+    "charger": 15,
+    "startMinute": 985,
+    "endMinute": 1030,
+    "durationMinutes": 45
+  },
+  {
+    "id": "wb-066",
+    "bus": 16,
+    "charger": 1,
+    "startMinute": 1055,
+    "endMinute": 1095,
+    "durationMinutes": 40
+  },
+  {
+    "id": "wb-067",
+    "bus": 40,
+    "charger": 5,
+    "startMinute": 1220,
+    "endMinute": 1265,
+    "durationMinutes": 45
+  },
+  {
+    "id": "wb-068",
+    "bus": 26,
+    "charger": 6,
+    "startMinute": 1225,
+    "endMinute": 1295,
+    "durationMinutes": 70
+  },
+  {
+    "id": "wb-069",
+    "bus": 25,
+    "charger": 2,
+    "startMinute": 1230,
+    "endMinute": 1270,
+    "durationMinutes": 40
+  },
+  {
+    "id": "wb-070",
+    "bus": 39,
+    "charger": 3,
+    "startMinute": 1230,
+    "endMinute": 1275,
+    "durationMinutes": 45
+  },
+  {
+    "id": "wb-071",
+    "bus": 86,
+    "charger": 16,
+    "startMinute": 1240,
+    "endMinute": 1280,
+    "durationMinutes": 40
+  },
+  {
+    "id": "wb-072",
+    "bus": 1,
+    "charger": 1,
+    "startMinute": 1245,
+    "endMinute": 1315,
+    "durationMinutes": 70
+  },
+  {
+    "id": "wb-073",
+    "bus": 41,
+    "charger": 9,
+    "startMinute": 1245,
+    "endMinute": 1290,
+    "durationMinutes": 45
+  },
+  {
+    "id": "wb-074",
+    "bus": 61,
+    "charger": 12,
+    "startMinute": 1245,
+    "endMinute": 1285,
+    "durationMinutes": 40
+  },
+  {
+    "id": "wb-075",
+    "bus": 17,
+    "charger": 4,
+    "startMinute": 1255,
+    "endMinute": 1295,
+    "durationMinutes": 40
+  },
+  {
+    "id": "wb-076",
+    "bus": 27,
+    "charger": 7,
+    "startMinute": 1255,
+    "endMinute": 1325,
+    "durationMinutes": 70
+  },
+  {
+    "id": "wb-077",
+    "bus": 60,
+    "charger": 13,
+    "startMinute": 1255,
+    "endMinute": 1295,
+    "durationMinutes": 40
+  },
+  {
+    "id": "wb-078",
+    "bus": 42,
+    "charger": 10,
+    "startMinute": 1260,
+    "endMinute": 1295,
+    "durationMinutes": 35
+  },
+  {
+    "id": "wb-079",
+    "bus": 69,
+    "charger": 14,
+    "startMinute": 1260,
+    "endMinute": 1295,
+    "durationMinutes": 35
+  },
+  {
+    "id": "wb-080",
+    "bus": 2,
+    "charger": 2,
+    "startMinute": 1275,
+    "endMinute": 1305,
+    "durationMinutes": 30
+  },
+  {
+    "id": "wb-081",
+    "bus": 18,
+    "charger": 5,
+    "startMinute": 1275,
+    "endMinute": 1305,
+    "durationMinutes": 30
+  },
+  {
+    "id": "wb-082",
+    "bus": 43,
+    "charger": 11,
+    "startMinute": 1275,
+    "endMinute": 1310,
+    "durationMinutes": 35
+  },
+  {
+    "id": "wb-083",
+    "bus": 28,
+    "charger": 8,
+    "startMinute": 1280,
+    "endMinute": 1315,
+    "durationMinutes": 35
+  },
+  {
+    "id": "wb-084",
+    "bus": 70,
+    "charger": 15,
+    "startMinute": 1280,
+    "endMinute": 1315,
+    "durationMinutes": 35
+  },
+  {
+    "id": "wb-085",
+    "bus": 3,
+    "charger": 3,
+    "startMinute": 1285,
+    "endMinute": 1315,
+    "durationMinutes": 30
+  },
+  {
+    "id": "wb-086",
+    "bus": 44,
+    "charger": 12,
+    "startMinute": 1290,
+    "endMinute": 1325,
+    "durationMinutes": 35
+  },
+  {
+    "id": "wb-087",
+    "bus": 71,
+    "charger": 16,
+    "startMinute": 1290,
+    "endMinute": 1325,
+    "durationMinutes": 35
+  },
+  {
+    "id": "wb-088",
+    "bus": 29,
+    "charger": 9,
+    "startMinute": 1295,
+    "endMinute": 1365,
+    "durationMinutes": 70
+  },
+  {
+    "id": "wb-089",
+    "bus": 4,
+    "charger": 4,
+    "startMinute": 1300,
+    "endMinute": 1325,
+    "durationMinutes": 25
+  },
+  {
+    "id": "wb-090",
+    "bus": 62,
+    "charger": 13,
+    "startMinute": 1300,
+    "endMinute": 1340,
+    "durationMinutes": 40
+  },
+  {
+    "id": "wb-091",
+    "bus": 19,
+    "charger": 6,
+    "startMinute": 1305,
+    "endMinute": 1340,
+    "durationMinutes": 35
+  },
+  {
+    "id": "wb-092",
+    "bus": 45,
+    "charger": 10,
+    "startMinute": 1305,
+    "endMinute": 1340,
+    "durationMinutes": 35
+  },
+  {
+    "id": "wb-093",
+    "bus": 63,
+    "charger": 14,
+    "startMinute": 1305,
+    "endMinute": 1345,
+    "durationMinutes": 40
+  },
+  {
+    "id": "wb-094",
+    "bus": 30,
+    "charger": 2,
+    "startMinute": 1310,
+    "endMinute": 1380,
+    "durationMinutes": 70
+  },
+  {
+    "id": "wb-095",
+    "bus": 72,
+    "charger": 5,
+    "startMinute": 1310,
+    "endMinute": 1345,
+    "durationMinutes": 35
+  },
+  {
+    "id": "wb-096",
+    "bus": 73,
+    "charger": 11,
+    "startMinute": 1315,
+    "endMinute": 1355,
+    "durationMinutes": 40
+  },
+  {
+    "id": "wb-097",
+    "bus": 5,
+    "charger": 1,
+    "startMinute": 1325,
+    "endMinute": 1350,
+    "durationMinutes": 25
+  },
+  {
+    "id": "wb-098",
+    "bus": 57,
+    "charger": 1,
+    "startMinute": 1360,
+    "endMinute": 1430,
+    "durationMinutes": 70
+  },
+  {
+    "id": "wb-099",
+    "bus": 9,
+    "charger": 2,
+    "startMinute": 1385,
+    "endMinute": 1455,
+    "durationMinutes": 70
+  },
+  {
+    "id": "wb-100",
+    "bus": 88,
+    "charger": 6,
+    "startMinute": 1395,
+    "endMinute": 1465,
+    "durationMinutes": 70
+  },
+  {
+    "id": "wb-101",
+    "bus": 34,
+    "charger": 7,
+    "startMinute": 1400,
+    "endMinute": 1470,
+    "durationMinutes": 70
+  },
+  {
+    "id": "wb-102",
+    "bus": 65,
+    "charger": 8,
+    "startMinute": 1400,
+    "endMinute": 1470,
+    "durationMinutes": 70
+  },
+  {
+    "id": "wb-103",
+    "bus": 75,
+    "charger": 13,
+    "startMinute": 1405,
+    "endMinute": 1475,
+    "durationMinutes": 70
+  },
+  {
+    "id": "wb-104",
+    "bus": 10,
+    "charger": 3,
+    "startMinute": 1415,
+    "endMinute": 1485,
+    "durationMinutes": 70
+  },
+  {
+    "id": "wb-105",
+    "bus": 74,
+    "charger": 11,
+    "startMinute": 1420,
+    "endMinute": 1470,
+    "durationMinutes": 50
+  },
+  {
+    "id": "wb-106",
+    "bus": 51,
+    "charger": 9,
+    "startMinute": 1440,
+    "endMinute": 1500,
+    "durationMinutes": 60
+  },
+  {
+    "id": "wb-107",
+    "bus": 95,
+    "charger": 20,
+    "startMinute": 1440,
+    "endMinute": 1495,
+    "durationMinutes": 55
+  },
+  {
+    "id": "wb-108",
+    "bus": 8,
+    "charger": 1,
+    "startMinute": 1445,
+    "endMinute": 1515,
+    "durationMinutes": 70
+  },
+  {
+    "id": "wb-109",
+    "bus": 52,
+    "charger": 12,
+    "startMinute": 1445,
+    "endMinute": 1505,
+    "durationMinutes": 60
+  },
+  {
+    "id": "wb-110",
+    "bus": 20,
+    "charger": 5,
+    "startMinute": 1460,
+    "endMinute": 1525,
+    "durationMinutes": 65
+  },
+  {
+    "id": "wb-111",
+    "bus": 37,
+    "charger": 10,
+    "startMinute": 1460,
+    "endMinute": 1530,
+    "durationMinutes": 70
+  },
+  {
+    "id": "wb-112",
+    "bus": 77,
+    "charger": 16,
+    "startMinute": 1460,
+    "endMinute": 1520,
+    "durationMinutes": 60
+  },
+  {
+    "id": "wb-113",
+    "bus": 12,
+    "charger": 4,
+    "startMinute": 1465,
+    "endMinute": 1535,
+    "durationMinutes": 70
+  },
+  {
+    "id": "wb-114",
+    "bus": 89,
+    "charger": 2,
+    "startMinute": 1465,
+    "endMinute": 1510,
+    "durationMinutes": 45
+  },
+  {
+    "id": "wb-115",
+    "bus": 14,
+    "charger": 6,
+    "startMinute": 1470,
+    "endMinute": 1540,
+    "durationMinutes": 70
+  },
+  {
+    "id": "wb-116",
+    "bus": 80,
+    "charger": 19,
+    "startMinute": 1475,
+    "endMinute": 1545,
+    "durationMinutes": 70
+  },
+  {
+    "id": "wb-117",
+    "bus": 84,
+    "charger": 7,
+    "startMinute": 1475,
+    "endMinute": 1515,
+    "durationMinutes": 40
+  },
+  {
+    "id": "wb-118",
+    "bus": 59,
+    "charger": 13,
+    "startMinute": 1480,
+    "endMinute": 1550,
+    "durationMinutes": 70
+  },
+  {
+    "id": "wb-119",
+    "bus": 22,
+    "charger": 8,
+    "startMinute": 1490,
+    "endMinute": 1555,
+    "durationMinutes": 65
+  },
+  {
+    "id": "wb-120",
+    "bus": 78,
+    "charger": 18,
+    "startMinute": 1490,
+    "endMinute": 1560,
+    "durationMinutes": 70
+  },
+  {
+    "id": "wb-121",
+    "bus": 49,
+    "charger": 11,
+    "startMinute": 1495,
+    "endMinute": 1545,
+    "durationMinutes": 50
+  },
+  {
+    "id": "wb-122",
+    "bus": 83,
+    "charger": 20,
+    "startMinute": 1505,
+    "endMinute": 1570,
+    "durationMinutes": 65
+  },
+  {
+    "id": "wb-123",
+    "bus": 66,
+    "charger": 14,
+    "startMinute": 1510,
+    "endMinute": 1580,
+    "durationMinutes": 70
+  },
+  {
+    "id": "wb-124",
+    "bus": 7,
+    "charger": 2,
+    "startMinute": 1515,
+    "endMinute": 1585,
+    "durationMinutes": 70
+  },
+  {
+    "id": "wb-125",
+    "bus": 48,
+    "charger": 12,
+    "startMinute": 1520,
+    "endMinute": 1580,
+    "durationMinutes": 60
+  },
+  {
+    "id": "wb-126",
+    "bus": 76,
+    "charger": 15,
+    "startMinute": 1520,
+    "endMinute": 1565,
+    "durationMinutes": 45
+  },
+  {
+    "id": "wb-127",
+    "bus": 68,
+    "charger": 17,
+    "startMinute": 1525,
+    "endMinute": 1595,
+    "durationMinutes": 70
+  },
+  {
+    "id": "wb-128",
+    "bus": 13,
+    "charger": 5,
+    "startMinute": 1530,
+    "endMinute": 1600,
+    "durationMinutes": 70
+  },
+  {
+    "id": "wb-129",
+    "bus": 35,
+    "charger": 9,
+    "startMinute": 1530,
+    "endMinute": 1600,
+    "durationMinutes": 70
+  },
+  {
+    "id": "wb-130",
+    "bus": 67,
+    "charger": 16,
+    "startMinute": 1535,
+    "endMinute": 1600,
+    "durationMinutes": 65
+  },
+  {
+    "id": "wb-131",
+    "bus": 21,
+    "charger": 7,
+    "startMinute": 1540,
+    "endMinute": 1605,
+    "durationMinutes": 65
+  },
+  {
+    "id": "wb-132",
+    "bus": 11,
+    "charger": 3,
+    "startMinute": 1545,
+    "endMinute": 1615,
+    "durationMinutes": 70
+  },
+  {
+    "id": "wb-133",
+    "bus": 6,
+    "charger": 1,
+    "startMinute": 1550,
+    "endMinute": 1620,
+    "durationMinutes": 70
+  },
+  {
+    "id": "wb-134",
+    "bus": 92,
+    "charger": 19,
+    "startMinute": 1550,
+    "endMinute": 1600,
+    "durationMinutes": 50
+  },
+  {
+    "id": "wb-135",
+    "bus": 15,
+    "charger": 4,
+    "startMinute": 1555,
+    "endMinute": 1625,
+    "durationMinutes": 70
+  },
+  {
+    "id": "wb-136",
+    "bus": 36,
+    "charger": 10,
+    "startMinute": 1560,
+    "endMinute": 1630,
+    "durationMinutes": 70
+  },
+  {
+    "id": "wb-137",
+    "bus": 47,
+    "charger": 11,
+    "startMinute": 1565,
+    "endMinute": 1605,
+    "durationMinutes": 40
+  },
+  {
+    "id": "wb-138",
+    "bus": 91,
+    "charger": 8,
+    "startMinute": 1570,
+    "endMinute": 1600,
+    "durationMinutes": 30
+  },
+  {
+    "id": "wb-139",
+    "bus": 24,
+    "charger": 6,
+    "startMinute": 1575,
+    "endMinute": 1640,
+    "durationMinutes": 65
+  },
+  {
+    "id": "wb-140",
+    "bus": 50,
+    "charger": 12,
+    "startMinute": 1585,
+    "endMinute": 1630,
+    "durationMinutes": 45
+  },
+  {
+    "id": "wb-141",
+    "bus": 64,
+    "charger": 15,
+    "startMinute": 1585,
+    "endMinute": 1625,
+    "durationMinutes": 40
+  },
+  {
+    "id": "wb-142",
+    "bus": 85,
+    "charger": 18,
+    "startMinute": 1590,
+    "endMinute": 1640,
+    "durationMinutes": 50
+  },
+  {
+    "id": "wb-143",
+    "bus": 53,
+    "charger": 13,
+    "startMinute": 1600,
+    "endMinute": 1635,
+    "durationMinutes": 35
+  },
+  {
+    "id": "wb-144",
+    "bus": 32,
+    "charger": 5,
+    "startMinute": 1605,
+    "endMinute": 1675,
+    "durationMinutes": 70
+  },
+  {
+    "id": "wb-145",
+    "bus": 33,
+    "charger": 8,
+    "startMinute": 1605,
+    "endMinute": 1675,
+    "durationMinutes": 70
+  },
+  {
+    "id": "wb-146",
+    "bus": 38,
+    "charger": 9,
+    "startMinute": 1605,
+    "endMinute": 1675,
+    "durationMinutes": 70
+  },
+  {
+    "id": "wb-147",
+    "bus": 58,
+    "charger": 14,
+    "startMinute": 1605,
+    "endMinute": 1675,
+    "durationMinutes": 70
+  },
+  {
+    "id": "wb-148",
+    "bus": 93,
+    "charger": 16,
+    "startMinute": 1605,
+    "endMinute": 1675,
+    "durationMinutes": 70
+  },
+  {
+    "id": "wb-149",
+    "bus": 23,
+    "charger": 2,
+    "startMinute": 1610,
+    "endMinute": 1675,
+    "durationMinutes": 65
+  },
+  {
+    "id": "wb-150",
+    "bus": 54,
+    "charger": 7,
+    "startMinute": 1610,
+    "endMinute": 1645,
+    "durationMinutes": 35
+  },
+  {
+    "id": "wb-151",
+    "bus": 94,
+    "charger": 17,
+    "startMinute": 1620,
+    "endMinute": 1675,
+    "durationMinutes": 55
+  },
+  {
+    "id": "wb-152",
+    "bus": 79,
+    "charger": 11,
+    "startMinute": 1625,
+    "endMinute": 1675,
+    "durationMinutes": 50
+  },
+  {
+    "id": "wb-153",
+    "bus": 31,
+    "charger": 1,
+    "startMinute": 1630,
+    "endMinute": 1675,
+    "durationMinutes": 45
+  },
+  {
+    "id": "wb-154",
+    "bus": 55,
+    "charger": 4,
+    "startMinute": 1630,
+    "endMinute": 1670,
+    "durationMinutes": 40
+  },
+  {
+    "id": "wb-155",
+    "bus": 81,
+    "charger": 10,
+    "startMinute": 1635,
+    "endMinute": 1675,
+    "durationMinutes": 40
+  },
+  {
+    "id": "wb-156",
+    "bus": 82,
+    "charger": 12,
+    "startMinute": 1635,
+    "endMinute": 1675,
+    "durationMinutes": 40
+  },
+  {
+    "id": "wb-157",
+    "bus": 46,
+    "charger": 3,
+    "startMinute": 1640,
+    "endMinute": 1675,
+    "durationMinutes": 35
+  },
+  {
+    "id": "wb-158",
+    "bus": 87,
+    "charger": 13,
+    "startMinute": 1645,
+    "endMinute": 1675,
+    "durationMinutes": 30
+  },
+  {
+    "id": "wb-159",
+    "bus": 90,
+    "charger": 15,
+    "startMinute": 1645,
+    "endMinute": 1675,
+    "durationMinutes": 30
+  },
+  {
+    "id": "wb-160",
+    "bus": 56,
+    "charger": 6,
+    "startMinute": 1650,
+    "endMinute": 1675,
+    "durationMinutes": 25
+  }
+]
